@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: rgb(151, 151, 150);
+}
+.flex-display{
+    display: flex;
+    margin-top: 20px;
+ 
+    
+}
+.flex-display div:nth-child(n+1){
+    width: 160px;
+    margin-left: 20px;
+    
+}
+.nav{
+    display: none;
+}
+.table tr:nth-child(1){
+    color: white;
+}
+.table tr:nth-child(2n):hover{
+    background-color: black;
+    color: white;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+footer a{
+    color: rgb(168, 7, 7);
+    text-decoration: none;
+    padding: 10px;
+    top
+}
